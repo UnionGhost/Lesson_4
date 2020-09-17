@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'), url('../fonts/Gilroy-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'), url('../fonts/Gilroy-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'), url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'), url('../fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*----Обнуляющий стиль----*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ol li,
+ul li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+
+/*------------------------*/
+
+html,
+body {
+  font-family: Gilroy;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+h1,
+h3,
+h4,
+ul span {
+  color: firebrick;
+  font-weight: bold;
+}
+
+.one_peace .one_peace__title,
+.main_title {
+  font-size: 35px;
+  text-shadow: 0 0 10px red;
+  letter-spacing: 2px;
+}
+
+#image {
+  width: 300px;
+}
+
+h3.title {
+  font-size: 25px;
+  letter-spacing: 2px;
+  /*text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);*/
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+.description p {
+  word-spacing: 3px;
+}
+
+.buy {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px;
+}
+
+.buy > a,
+.another_link > a {
+  color: gold;
+}
+
+.another_manga {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}
+
+br + hr {
+  background-color: firebrick;
+  height: 2px;
+}
+
+
+/*
+  
+  100 - thin
+  200 - extra-light
+  300 - lite
+  400 - normal (regular) (roman)
+  500 - medium
+  600 - semibold (demibold)
+  700 - bold
+  800 - heavy (extrabold)
+  900 - black
+
+
+  serif - шрифт с засечками
+  san-serif - рубленный 
+  cursive - курсивные
+  fantasy - декоративные
+  monospace - моноширинные шрифты
+
+*/
